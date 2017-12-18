@@ -1,0 +1,103 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "089F1858-5BB2-4826-A1C2-665BBDD2DE32",
+			"type": "BoxBufferGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "F867D148-FA46-4683-958B-BE4DDFBC48B8",
+			"type": "CircleBufferGeometry",
+			"radius": 1,
+			"segments": 8,
+			"thetaStart": 0,
+			"thetaLength": 6.283185
+		},
+		{
+			"uuid": "3A832210-6D6C-4F1E-A55E-2020D0119C7B",
+			"type": "SphereBufferGeometry",
+			"radius": 1,
+			"widthSegments": 8,
+			"heightSegments": 6,
+			"phiStart": 0,
+			"phiLength": 6.283185,
+			"thetaStart": 0,
+			"thetaLength": 3.141593
+		}],
+	"materials": [
+		{
+			"uuid": "98878281-7560-48CA-8F53-F3EBE9CCC4B8",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		},
+		{
+			"uuid": "9C432BE2-8944-4BEA-B857-D336D11F838D",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		},
+		{
+			"uuid": "924E360E-A655-4A29-8F1A-DDC79C2F1591",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		}],
+	"object": {
+		"uuid": "31517222-A9A7-4EAF-B5F6-60751C0BABA3",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "9A82A97F-6208-49ED-86AC-AAAA3298D0F0",
+				"type": "Mesh",
+				"name": "Box",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-4.972121,0,0,1],
+				"geometry": "089F1858-5BB2-4826-A1C2-665BBDD2DE32",
+				"material": "98878281-7560-48CA-8F53-F3EBE9CCC4B8"
+			},
+			{
+				"uuid": "4045934A-1207-4BC2-9A03-AA45DCCF72DC",
+				"type": "Mesh",
+				"name": "Circle",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,-3.941342,1],
+				"geometry": "F867D148-FA46-4683-958B-BE4DDFBC48B8",
+				"material": "9C432BE2-8944-4BEA-B857-D336D11F838D"
+			},
+			{
+				"uuid": "32ECB86C-3DD5-40A1-9F60-FA664B7A6793",
+				"type": "Mesh",
+				"name": "Sphere",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,2.601537,0,2.470402,1],
+				"geometry": "3A832210-6D6C-4F1E-A55E-2020D0119C7B",
+				"material": "924E360E-A655-4A29-8F1A-DDC79C2F1591"
+			}],
+		"background": 11184810
+	}
+}
